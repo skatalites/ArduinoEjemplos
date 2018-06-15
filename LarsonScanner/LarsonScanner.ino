@@ -10,8 +10,6 @@
 #define TIEMPO_RETRASO  100
 #define TIEMPO_RETRASO2  200
 
-
-
 void setup() {
   for (int i = PRIMER_LED; i <= ULTIMO_LED; i++) {
     pinMode(i, OUTPUT);
